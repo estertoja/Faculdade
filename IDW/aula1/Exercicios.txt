@@ -1,0 +1,10 @@
+EXERCICIO 1
+
+algoritmo "OlaMundo"
+var
+   msg: caracter
+inicio
+      msg <- "Olá, mundo!"
+      Escreva (msg)
+// Seção de Comandos 
+fimalgoritmo
