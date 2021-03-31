@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulário</title>
+	</head>
+	<body>
+		<fomr action ="processa.html" method="post">
+			<section>
+				<h4> Nome </h4>
+				<input type="text" name="text" size="10"><br>
+				<h4> Senha </h4>
+				<input type="password" name="senha" maxlength="8" value="******"><br>
+			</section>
+			<section>
+				<h4> Escolha uma das opções </h4>
+				<input type="radio" name="Opção1" checked>Opção1 <br>
+				<input type="radio" name="Opção1">Opção2 <br>
+			</section>
+			<section>
+				<h4> Selecione as opções de acordo com a preferencia </h4>
+				<input type="checkbox" name="Opção3">Opção3 <br>
+				<input type="checkbox" name="Opção4">Opção4<br>
+				<input type="checkbox" name="Opção5">Opção5<br>
+				<input type="checkbox" name="Opção6">Opção6<br>
+			</section><br>
+			Região Metropolitana<br>
+			<select name="cidade" size='3' multiple="">
+				<option value="porto"> Porto Alegre </option>
+				<option value="porto"> Cachoeirinha </option>
+				<option value="porto"> Gravatai </option>
+				<option value="porto"> Canoas </option>
+			</select><br>
+			Bairro<br>
+			<select name="cidade">
+				<option value="porto"> Granja </option>
+				<option value="porto"> Anair </option>
+				<option value="porto"> Fátima </option>
+				<option value="porto"> Ponta Porâ </option>
+			</select><br>
+			<section>
+				<h4> Digite sua opinião </h4>
+				<textarea name="opnião" rows="10" cols="40	">
+					Digite aqui!
+				</textarea>
+			</section>
+			<section>
+				<h4> Escolha a ação </h4>
+				<input type="submit" value="Enviar Dados"> <br>
+				<input type="reset" value="Apagar"> <br>
+				<input button type="submit" name="Salvar"><br>
+			</section>
+		</fomr>
+	</body>
+</html>
