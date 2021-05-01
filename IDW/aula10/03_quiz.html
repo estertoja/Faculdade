@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="imagens/favicon.ico">
+		<title>Once upon a time</title>
+	</head>
+
+	<body bgcolor="black" >
+		
+		<header name="cabecalho-interno">
+		<!-- Imagem Capa -->
+			<center> 
+				<a name="titulo">
+					<img src="imagens/header.jpg" alt="Capa com o nome da série escrita  Once Upon a Time" width="1050" height="230"> 
+				</a> 
+			</center>
+		</header>
+	
+		<!--Pesquisar Assunto -->
+		<div>
+			<input type="search" id="pesquisa" name="pesquisa" placeholder="Pesquisar">
+		</div>			
+		
+		<!-- Página-->
+		<div name="back">
+			<center>
+				<hr color="#2200ff" width='650' height='1.5' > 
+					<table>
+						<tr> 
+							<th width='-150'> <a href="01_index.html"> <font face="Arial" color="#6f55b8" size='4' aligt="right"> <- Página princial </font> </a> </th>
+
+							<th aligt="right"><a href="04_elenco.html"><font face="Arial" color="#6f55b8" size='4' >Próxima página -> </font> </a></th>
+						</tr>		
+					</table>
+				<hr color="#2200ff" width='650' height='1.5' >
+			</center>
+		</div>
+
+		<!-- Menu da Página--> 
+		<div name="menu_pagina">
+			<center>
+				<h2> <font face="Ariel" color="#6f55b8" size="6"> <a name="voltar">  Menu </a> </font> <h2>
+					<ol>
+						<li><a href="#quiz1"><font color="#533a99" size='4'>QUIZ 1</font></a></li>
+						<li><a href="#quiz2"><font color="#533a99" size='4'> QUIZ 2</font></a></li>
+						<li><a href="#quiz3"><font color="#533a99" size='4'> QUIZ 3</font></a></li>
+						<li><a href="#contato"><font color="#533a99" size='4'>Contato</font></a></li>
+					</ol>	
+				<ol>		
+				<hr color="#2200ff" width='250' height='3'> 		
+			</center>
+		</div>
+
+		<!--Titulo da Página-->
+		<div name="titulo_pagina">
+			<center>
+				<h1><font face="Gabriola" color="#6f55b8" size='7'><a name="quiz"> Quiz </a></font></h1>
+			</center>
+		</div>
+
+		<section>
+		<!-- Questionários 1 -->
+		<div name="question1">
+		<!-- Primeiro Questionário -->
+			<h2> <font face="Gabriola" color="#533a99" size='6'> <a name="quiz1"> Qual personagem do Once Upon a Time você seria? </a> </font> </h2>
+			<font color="bcb5e9">
+				<form action="formulario.html" method="get">
+					<section> 
+						<h4> Numa escala de 1 a 6 quanto você se considera uma pessoa romântica ?</h4>
+						<input type="radio" name="num"> 1 <br>
+						<input type="radio" name="num"> 2 <br>
+						<input type="radio" name="num"> 3 <br>
+						<input type="radio" name="num"> 4 <br>
+						<input type="radio" name="num"> 5 <br>
+						<input type="radio" name="num"> 6 <br>
+					</section>
+					<section>
+						<h4> "A vingança nunca é plena mata a alma e envenena" | Você concorda com essa frase? </h4>
+						<input type="radio" name="question1"> Sim <br>
+						<input type="radio" name="question1"> Não <br>
+					</section>
+					<section>
+						<h4> Qual desses lugares você gostaria de conhecer? </h4>
+						<input type="checkbox" name="opcao1"> Café da Vovó <br>
+						<input type="checkbox" name="opcao2"> A loja de penhores do senhor Gold <br>
+						<input type="checkbox" name="opcao3"> A biblioteca de Storybrooke <br>
+						<input type="checkbox" name="opcao4"> O navio do capitão gancho <br>
+					</section>
+					<section>
+						<h4> O que é mais importante: </h4>
+						<input type="checkbox" name="opcao5"> A força<br>
+						<input type="checkbox" name="opcao6"> A inteligencia<br>
+						<input type="checkbox" name="opcao7"> O amor<br>
+						<input type="checkbox" name="opcao8"> O poder<br>
+					</section>
+					<section>
+						<h4> Escolha uma arma: </h4>
+						<input type="radio" name="opcao9"> Espada 1 <br>
+						<input type="radio" name="opcao10"> Maça <br>
+							<input type="radio" name="opcao11"> Arco Flecha <br>
+							<input type="radio" name="opcao12"> Gancho <br>
+							<input type="radio" name="opcao13"> Arma <br>
+							<input type="radio" name="opcao14"> Varinha <br>
+						</section>		
+						<section>
+							<h4> Você é uma pessoa vaidosa? </h4>
+							<input type="radio" name="question2"> Sim <br>
+							<input type="radio" name="question2"> Não <br>
+						</section>
+						<section>
+							<h4> Escolha uma cor </h4>
+							<input type="color"  id="cor" name="cor" value=#0000FF>
+						</section>
+						<br>
+						<br>
+						Digite seu e-mail: </br>
+						<input type="email" id="email" name= "email" placeholder="email@email.com" required > </br> </br>
+						<input type="submit" name="Enviar">
+						<input type="reset" name="Limpar"></br>
+					</form>
+				</font>
+		</div>
+		
+		<!-- Divisória -->
+		<hr color="#2200ff" width='650' height='1.5' > 
+
+		<!-- Questionários 2 -->
+		<div name="question2">
+		<!-- Segundo Questionário -->
+			<h2> <font face="Gabriola" color="#533a99" size='6'> <a name="quiz2"> Qual personagem do Once Upon a Time mais combina com você </a> </font> </h2>
+			<font color="bcb5e9">
+				<form action="formulario.html" method="get">
+					<section>
+						<h4> Qual a sua melhor arma?</h4>
+						<input type="radio" name="opcao1"> Espada <br>
+						<input type="radio" name="opcao2"> Maça Envenenada <br>
+						<input type="radio" name="opcao3"> Arco Flecha <br>
+						<input type="radio" name="opcao4"> Bolsa de Utilizades <br>
+						<input type="radio" name="opcao5"> Magia Branca <br>
+						<input type="radio" name="opcao6"> Adaga <br>
+					</section>
+					<section>
+						<h4> O que você faz no seu tempo livre?</h4>
+						<input type="checkbox" name="opcao7"> Fico deitado com meu celular<br>
+						<input type="checkbox" name="opcao8"> Fico praticando o que eu gosto<br>
+						<input type="checkbox" name="opcao9"> Comendo todo tipo de salgado ppipoca ou qualquer coisa salgada<br>
+						<input type="checkbox" name="opcao10"> Passando o tempo com quem amo<br>
+						<input type="checkbox" name="opcao11">
+						Fico na minha lojinha <br>
+						<input type="checkbox" name="opcao12">
+						Fico assistindo TV<br>
+					</section>
+					<section>
+						<h4> Se você fosse uma rainha ou rei qual seria seu primeiro mandato? </h4><br>
+						<input type="checkbox" name="opcao13"> Que matasse aquela pessoa que me feriu<br>
+						<input type="checkbox" name="opcao14"> Que procurassem todo o ouro da minha terra para mim<br>
+						<input type="checkbox" name="opcao15"> Que meu mandado seria que todos vivessem em paz<br>
+						<input type="checkbox" name="opcao16"> Que acabassem com todos os tipos de magia da cidade<br>
+						<input type="checkbox" name="opcao17"> Que mandaria todos procurarem um(a) lindo(a) rei (rainha) para mim<br>
+					</section>
+					<section>
+						<h4> Se você fosse um pirata qual seria seu navio? </h4>
+						<input type="radio" name="question5"> Que matasse aquela pessoa que me feriu<br>
+						<input type="radio" name="question6"> Que procurassem todo o ouro da minha terra para mim<br>
+					</section>
+					<section>
+						<h4> Você prefere qual fase da Emma Swan a salvadora ou a senhora das Trevas</h4>
+						<input type="radio" name="question7">Senhora das Trevas<br>
+						<input type="radio" name="question8"> Salvadora<br>
+					</section>
+					<section>
+						<h4> Se você fosse a branca de neve fugindo da rainha ma aonde você iria?</h4>
+						<input type="radio" name="question9">Entrava em um tronco<br>
+						<input type="radio" name="question10"> Eu a encarava, mesmo que eu morresse <br>
+						<input type="radio" name="question11"> Pegaria um barco e iria para a terra do nunca<br>
+					</section>
+					<section>
+						<h4> Qual desses personagens de contos de fadas da disney qual você seria?</h4>
+						<input type="radio" name="question9">Branca de Neve<br>
+						<input type="radio" name="question10"> Rainha Má <br>
+						<input type="radio" name="question11"> Capitão Gancho<br>
+						<input type="radio" name="question11"> A princisa Swan<br>
+						<input type="radio" name="question11"> Fera<br>
+						<input type="radio" name="question11"> Principe Encatado <br>
+					</section>
+					<br>
+					<br>
+					Digite seu e-mail: </br>
+					<input type="email" id="email" name= "email" placeholder="email@email.com" required > </br> </br>
+					<input type="submit" name="Enviar">
+					<input type="reset" name="Limpar"></br>
+				</form>
+			</font>
+		</div>
+
+		<!-- Divisória -->			
+		<hr color="#2200ff" width='650' height='1.5' > 
+
+		<!-- Questionários 3-->
+		<div name="question3">
+			<!-- Terceiro Questionário -->
+					<h2> <font face="Gabriola" color="#533a99" size='6'> <a name="quiz3"> Queremos conhecer você!!! </a> </font> </h2>
+					<font color="bcb5e9">
+						<form action="formulario.html" method="get">
+								<h4> Qual o seu nome? </h4>
+								<input type="text" name="nome"> 
+									</br>
+								<h4> Qual a sua data de nascimento? </h4>
+								<input type="date" id="nasci_date"	name="nasci_date">
+									</br>
+								<h4> Qual o seu número de telefone? </h4>
+								<input type="tel" id="fone" name="fone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="99999999">
+									</br>
+								<h4> Qual horario que mais assiste a série ? </h4>
+								<input 	type="time" id="hora" name="hora">
+									</br>
+								<h4> Qual temporada você mais gostou?</h4>
+								<input type="number" id="temporada" name="temporada" min="1" max="7">
+									</br>
+								<h4> Qual episódeo você mais gostou?</h4>
+								<input type="number" id="temporada" name="temporada" min="1" max="23">
+									</br>
+								<h4> Digite seu e-mail: </h4>
+								<input type="email" id="email" name= "email" placeholder="email@email.com" required > </br> </br> 
+									</br>
+
+							<input type="submit" name="Enviar">
+							<input type="reset" name="Limpar"></br>
+						</form>
+					</font>
+		</div>
+		
+		<!-- Divisória -->			
+		<hr color="#2200ff" width='650' height='1.5' > 
+		
+
+		<!-- Sujestões -->
+		<div name="contato"> 
+			<font color="bcb5e9">					
+				<h2> <font face="Gabriola" color="#533a99" size='6'> <a name="contato"> Contato </a> </font></h2>
+				<h3> <font face="Euphemia" color="#bcb5e9"> Entre contato conosco e nos dê ideias para mais Quiz </font> </h3>
+					
+				<form action="formulario2.html" method="GET">
+					<p>Digite seu nome:</p>
+					<input type="text" name="nome"> 
+							
+					<p>Digite seu email:</p>
+					<input type="email" id="email" name= "email" placeholder="email@email.com" required > </br> </br>
+
+					<p>Deseja ser um participante da comunidade?</p>
+					<select name="participante" size='1'>
+						<option value="participante"> Participar da Comunidade </option>
+						<option value="participante"> Não participar da Comunidade </option>	
+					</select>
+					</br> 
+
+					<p>Digite sua sujestões:</p>
+					<textarea rows="6"  spellcheck="true" maxlength="500"> 
+					</textarea>
+					</br>
+					</br>
+
+					<input type="submit" name="Enviar">
+				</form>
+			</font>
+		</div>
+	</body>
+
+	<!-- Divisão -->
+	<div name="up">
+		<hr color="#2200ff" width='250' height='12' > 
+			<center> 
+				<a href="#titulo"> 
+					<font face="Ariel" color="#6f55b8" size='5' > < Voltar > </font> 
+				</a> 
+			</center>		
+		<hr color="#2200ff" width='250' height='12' >
+	</div>
+
+	<!-- Rodepé -->
+	<footer name="rodape">
+			<font face="Arial" color="2200ff" size="2"> 	 
+				</br>
+				</br>
+				<address>
+				<a href="https://www.linkedin.com/in/ester-toja-692a6566/" target="_blank"> Ester Toja</a></br>
+				<a href="mailto:ester.toja@rede.ulbra.br"> Entre em contato, mande um email </a> </br>
+				Storybrooke, Maine</br>
+				Nova Inglaterra</br>
+				</address>
+				</br>
+				</br>
+			  </font> 
+	</footer>
+</html>
