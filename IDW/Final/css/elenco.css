@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+img {
+    width: 460px;
+    height: 150px;
+    padding: 15px;
+    margin:auto; 
+}
+h1{
+    color: rgb(215, 182, 235);
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body {
+    background-color:black;
+    color: white;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal 15pt Arial;
+}
+section {
+    background-color: rgb(79, 10, 119);
+    border-radius: 10px;
+    padding: 15px;
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px rgba(136, 5, 212, 0.521);
+}
+/* --------------------- menu fixo ------------------------ */
+.menu ul{
+    list-style-type: none;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1050px;
+    overflow: hidden;
+    background-color: rgb(99, 1, 138);
+}
+.menu li {
+    float: left;
+}
+.menu li a:hover {
+    background-color: rgb(174, 101, 216);
+}
+.menu li a {
+    display: block;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li input {
+    display: block;
+    color: black;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 75px;
+    padding: 8px 10px;
+    text-decoration: none;
+}   
+/*----------------------- menu interno ---------------------*/
+.menu_interno ul{
+    list-style-type: none;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 470px;
+    overflow: hidden;
+    background-color:  rgb(99, 1, 138);
+}
+.menu_interno li {
+    float: left;
+}
+.menu_interno li a:hover {
+    background-color: rgb(174, 101, 216);
+}
+.menu_interno li a {
+    display: block;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li input {
+    display: block;
+    color: black;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 75px;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+/*----------------------- conteudo ---------------------*/
+
+/* Tabela*/
+div {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;    
+}
+.card {
+    background: rgb(59, 40, 75);
+    width: 850px;
+    margin-left: 95px;
+    color: var(--dark-blue);
+}
+.card h2 {
+    color: rgb(177, 30, 245);
+    text-align: center;
+}
+.card p {
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table{
+    position: relative;
+    left: 60px;
+    width: 750px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+}
+table, th, td {
+    border: 1px solid white;
+    padding: 0.05px;
+}
+table th {
+    font-size: 20px;
+}
+table td img {
+    width: 150px;
+    height: 190px;
+}
+/* Árvore */
+ .card img#arvore{
+    width: 750px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+/* --------------------- Rodepé ------------------------ */
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+    font-size: 15px;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+footer address a{
+    text-decoration: none;
+    color: white;
+};
