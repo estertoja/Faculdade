@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-img {
+.logo  {
     width: 460px;
     height: 150px;
     padding: 15px;
-    margin:auto; 
+    margin-left:530px;
 }
 h1{
     color: rgb(215, 182, 235);
@@ -25,7 +25,6 @@ section {
     padding: 15px;
     width: 1050px;
     margin: auto;
-    margin-bottom: 50px;
     box-shadow: 5px 5px 10px rgba(136, 5, 212, 0.521);
 }
 /* --------------------- menu fixo ------------------------ */
@@ -67,7 +66,7 @@ section {
     margin: auto;
     margin-bottom: 30px;
     border-radius: 10px;
-    width: 470px;
+    width: 450px;
     overflow: hidden;
     background-color:  rgb(99, 1, 138);
 }
@@ -94,54 +93,51 @@ section {
     padding: 8px 10px;
     text-decoration: none;
 }
+
 /*----------------------- conteudo ---------------------*/
-
-/* Tabela*/
-div {
-    text-align: center;
-    padding: 5px;
-    margin-bottom: 30px;
-    border-radius: 10px;    
-}
-.card {
+form section {
     background: rgb(59, 40, 75);
-    width: 850px;
-    margin-left: 95px;
-    color: var(--dark-blue);
-}
-.card h2 {
-    color: rgb(177, 30, 245);
-    text-align: center;
-}
-.card p {
-    font-size: 12pt;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-table{
-    position: relative;
-    left: 60px;
-    width: 750px;
+    width: 950px;
+    margin: auto;
     margin-bottom: 50px;
+}
+form section h3 {
+    color: rgb(165, 95, 206);
+    font-size: 20pt;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+}
+form section {
+    color: white;
+    font-size: 10pt;
+    font-family: Arial;
+    text-align: left; 
+}
+form section h4 {
+    text-align: center;
+}
+form section p {
+    font-size: 12pt;
+    font-weight: bold;
+}
+form section button {
+    background-color: rgb(99, 1, 138);
+    border: none;
     border-radius: 10px;
-
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 100px;
+    margin-right: 50px;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
 }
-table, th, td {
-    border: 1px solid white;
-    padding: 0.05px;
-}
-table th {
-    font-size: 20px;
-}
-table td img {
-    width: 150px;
-    height: 190px;
-}
-/* Árvore */
- .card img#arvore{
-    width: 750px;
-    height: 450px;
-    margin-bottom: 30px;
+form section button:hover {
+    background-color: rgb(174, 101, 216);
 }
 /* --------------------- Rodepé ------------------------ */
 footer {

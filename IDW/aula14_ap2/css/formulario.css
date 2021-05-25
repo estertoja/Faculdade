@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.logo  {
+img {
     width: 460px;
     height: 150px;
     padding: 15px;
@@ -93,51 +93,21 @@ section {
     padding: 8px 10px;
     text-decoration: none;
 }
-
 /*----------------------- conteudo ---------------------*/
-form section {
+.card {
     background: rgb(59, 40, 75);
-    width: 950px;
-    margin: auto;
-    margin-bottom: 50px;
+    padding: 1.5rem 2rem;
+    border-color: rgb(28, 2, 49);
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--dark-blue);
 }
-form section h3 {
-    color: rgb(165, 95, 206);
+
+.card p {
     font-size: 20pt;
-    font-family: Arial, sans-serif;
-    text-align: center; 
-}
-form section {
-    color: white;
-    font-size: 10pt;
-    font-family: Arial;
-    text-align: left; 
-}
-form section h4 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
-form section p {
-    font-size: 12pt;
-    font-weight: bold;
-}
-form section button {
-    background-color: rgb(99, 1, 138);
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
-    color: #FFFFFF;
-    padding: 15px;
-    width: 100px;
-    margin-right: 50px;
-    text-align: center;
-    transition-duration: 0.4s;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    left: 250px;
-}
-form section button:hover {
-    background-color: rgb(174, 101, 216);
 }
 /* --------------------- Rodepé ------------------------ */
 footer {

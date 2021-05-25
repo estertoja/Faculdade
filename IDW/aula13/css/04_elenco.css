@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.logo  {
+.logo {
     width: 460px;
     height: 150px;
     padding: 15px;
@@ -25,6 +25,7 @@ section {
     padding: 15px;
     width: 1050px;
     margin: auto;
+    margin-bottom: 50px;
     box-shadow: 5px 5px 10px rgba(136, 5, 212, 0.521);
 }
 /* --------------------- menu fixo ------------------------ */
@@ -66,7 +67,7 @@ section {
     margin: auto;
     margin-bottom: 30px;
     border-radius: 10px;
-    width: 450px;
+    width: 470px;
     overflow: hidden;
     background-color:  rgb(99, 1, 138);
 }
@@ -89,55 +90,59 @@ section {
     color: black;
     text-align: center;
     margin-top: 7px;
-    margin-left: 75px;
+    margin-left: 415px;
     padding: 8px 10px;
     text-decoration: none;
 }
-
 /*----------------------- conteudo ---------------------*/
-form section {
+
+/* Tabela*/
+div {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;    
+}
+.card {
     background: rgb(59, 40, 75);
-    width: 950px;
-    margin: auto;
-    margin-bottom: 50px;
+    width: 1000px;
+    margin-left: 25px;
+    color: var(--dark-blue);
 }
-form section h3 {
-    color: rgb(165, 95, 206);
-    font-size: 20pt;
-    font-family: Arial, sans-serif;
-    text-align: center; 
-}
-form section {
-    color: white;
-    font-size: 10pt;
-    font-family: Arial;
-    text-align: left; 
-}
-form section h4 {
+.card h2 {
+    color: rgb(215, 182, 235);
     text-align: center;
 }
-form section p {
+.card p {
     font-size: 12pt;
-    font-weight: bold;
-}
-form section button {
-    background-color: rgb(99, 1, 138);
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
-    color: #FFFFFF;
-    padding: 15px;
-    width: 100px;
-    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    transition-duration: 0.4s;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    left: 250px;
 }
-form section button:hover {
-    background-color: rgb(174, 101, 216);
+table{
+    position: relative;
+    left: 60px;
+    width: 860px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+table, th, td {
+    border: 1px solid rgb(198, 76, 247);
+    padding: 0.05px;
+    border-width: thin;
+}
+table th {
+    font-size: 20px;
+}
+table .elenco{
+    width: 190px;
+    height: 260px;
+    margin: 2px;
+}
+/* Árvore */
+ .card img#arvore{
+    width: 750px;
+    height: 450px;
+    margin-bottom: 30px;
 }
 /* --------------------- Rodepé ------------------------ */
 footer {

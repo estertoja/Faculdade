@@ -56,89 +56,50 @@ section {
     color: black;
     text-align: center;
     margin-top: 7px;
-    margin-left: 75px;
+    margin-left: 415px;
     padding: 8px 10px;
     text-decoration: none;
 }   
-/*----------------------- menu interno ---------------------*/
-.menu_interno ul{
-    list-style-type: none;
-    margin: auto;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    width: 450px;
-    overflow: hidden;
-    background-color:  rgb(99, 1, 138);
-}
-.menu_interno li {
-    float: left;
-}
-.menu_interno li a:hover {
-    background-color: rgb(174, 101, 216);
-}
-.menu_interno li a {
-    display: block;
-    color: rgb(209, 209, 209);
+/*----------------------- conteudo ---------------------*/
+div {
     text-align: center;
-    border-radius: 10px;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 5px;
 }
-.menu li input {
-    display: block;
-    color: black;
+.card {
+    background: rgb(59, 40, 75);
+    padding: 1.5rem 2rem;
+    border-color: rgb(28, 2, 49);
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--dark-blue);
+}
+.card h2 {
+    color: rgb(222, 177, 248);
+    text-align: center  ;
+}
+.card ul li {
+    font-size: 12pt;
+    font-family: Arial, Helvetica;
+    text-align: justify;
+    list-style-image: none;
+}
+.card ul li{
+    list-style-image: url("../imagens/apple.png");
+    line-height: 1cm;
+    
+} 
+.card a {
+   color:rgb(222, 177, 248)
+}
+.card blockquote {
+    font-size: 12pt;
+    font-family: Arial, Helvetica;
     text-align: center;
-    margin-top: 7px;
-    margin-left: 75px;
-    padding: 8px 10px;
-    text-decoration: none;
+    list-style-image: none;
+    padding: 15px;
 }
 
-/*----------------------- conteudo ---------------------*/
-form section {
-    background: rgb(59, 40, 75);
-    width: 950px;
-    margin: auto;
-    margin-bottom: 50px;
-}
-form section h3 {
-    color: rgb(165, 95, 206);
-    font-size: 20pt;
-    font-family: Arial, sans-serif;
-    text-align: center; 
-}
-form section {
-    color: white;
-    font-size: 10pt;
-    font-family: Arial;
-    text-align: left; 
-}
-form section h4 {
-    text-align: center;
-}
-form section p {
-    font-size: 12pt;
-    font-weight: bold;
-}
-form section button {
-    background-color: rgb(99, 1, 138);
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
-    color: #FFFFFF;
-    padding: 15px;
-    width: 100px;
-    margin-right: 50px;
-    text-align: center;
-    transition-duration: 0.4s;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    left: 250px;
-}
-form section button:hover {
-    background-color: rgb(174, 101, 216);
-}
 /* --------------------- Rodepé ------------------------ */
 footer {
     color: white;
