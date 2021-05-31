@@ -7,26 +7,26 @@
     margin-left:530px;
 }
 h1{
-    color: rgb(215, 182, 235);
+    color: #d7b6eb;
     font-size: 30pt;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 body {
-    background-color:black;
-    color: white;
+    background-color:#000000;
+    color: #ffffff;
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     font: normal 15pt Arial;
 }
 section {
-    background-color: rgb(79, 10, 119);
+    background-color: #4f0a77;
     border-radius: 10px;
     padding: 15px;
     width: 1050px;
     margin: auto;
     margin-bottom: 50px;
-    box-shadow: 5px 5px 10px rgba(136, 5, 212, 0.521);
+    box-shadow: 5px 5px 10px #8805d485;
 }
 /* --------------------- menu fixo ------------------------ */
 .menu ul{
@@ -36,17 +36,17 @@ section {
     padding: 15px;
     width: 1050px;
     overflow: hidden;
-    background-color: rgb(99, 1, 138);
+    background-color: #63018a;
 }
 .menu li {
     float: left;
 }
 .menu li a:hover {
-    background-color: rgb(174, 101, 216);
+    background-color: #ae65d8;
 }
 .menu li a {
     display: block;
-    color: rgb(209, 209, 209);
+    color: #d1d1d1;
     text-align: center;
     border-radius: 10px;
     padding: 14px 16px;
@@ -54,7 +54,7 @@ section {
 }
 .menu li input {
     display: block;
-    color: black;
+    color: #000000;
     text-align: center;
     margin-top: 7px;
     margin-left: 75px;
@@ -69,17 +69,17 @@ section {
     border-radius: 10px;
     width: 470px;
     overflow: hidden;
-    background-color:  rgb(99, 1, 138);
+    background-color:  #63018a;
 }
 .menu_interno li {
     float: left;
 }
 .menu_interno li a:hover {
-    background-color: rgb(174, 101, 216);
+    background-color: #ae65d8;
 }
 .menu_interno li a {
     display: block;
-    color: rgb(209, 209, 209);
+    color: #d1d1d1;
     text-align: center;
     border-radius: 10px;
     padding: 14px 16px;
@@ -87,7 +87,7 @@ section {
 }
 .menu li input {
     display: block;
-    color: black;
+    color: #000000;
     text-align: center;
     margin-top: 7px;
     margin-left: 75px;
@@ -104,13 +104,13 @@ div {
     border-radius: 10px;    
 }
 .card {
-    background: rgb(59, 40, 75);
+    background: #3b284b;
     width: 1000px;
     margin-left: 25px;
     color: var(--dark-blue);
 }
 .card h2 {
-    color: rgb(215, 182, 235);
+    color: #d7b6eb;
     text-align: center;
 }
 .card p {
@@ -126,7 +126,7 @@ table{
     border-radius: 10px;
 }
 table, th, td {
-    border: 1px solid rgb(198, 76, 247);
+    border: 1px solid #c64cf7;
     padding: 0.05px;
     border-width: thin;
 }
@@ -146,7 +146,7 @@ table .elenco{
 }
 /* --------------------- Rodepé ------------------------ */
 footer {
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-style: italic;
     padding: 15px;
@@ -160,5 +160,5 @@ footer img{
 }
 footer address a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 };
