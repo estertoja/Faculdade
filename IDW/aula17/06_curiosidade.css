@@ -52,10 +52,11 @@ section {
     text-decoration: none;
 }
 .menu li input {
+    display: flex;
+    position: relative;
+    left: 500px;
     color: #000000;
     text-align: center;
-    margin-top: 7px;
-    margin-left: 75px;
     padding: 8px 10px;
     text-decoration: none;
 }   
