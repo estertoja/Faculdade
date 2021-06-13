@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+.logo {
+    width: 460px;
+    height: 150px;
+    padding: 15px;
+    margin-left:740px;
+}
+h1{
+    color: #d7b6eb;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body {
+    background-color:#000000;
+    color: #ffffff;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal 15pt Arial;
+}
+section {
+    background-color: #4f0a77;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1050px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #8805d485;
+}
+/* --------------------- menu fixo ------------------------ */
+.menu ul{
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1050px;
+    overflow: hidden;
+    background-color: #63018a;
+
+}
+.menu li a:hover {
+    background-color: #ae65d8;
+}
+.menu li a {
+    display: flex;
+    color: #d1d1d1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li input {
+    color: #000000;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 75px;
+    padding: 8px 10px;
+    text-decoration: none;
+}   
+/*----------------------- menu interno ---------------------*/
+.menu_interno ul{
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 450px;
+    overflow: hidden;
+    background-color:  #63018a;
+}
+.menu_interno li a:hover {
+    background-color: #ae65d8;
+}
+.menu_interno li a {
+    display: flex;   
+    color: #d1d1d1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li input {
+    color: #000000;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 75px;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+/*----------------------- conteudo ---------------------*/
+.card {
+    background: #3b284b;
+    padding: 1.5rem 2rem;
+    border-color: #1c0231;
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+}
+.card h2 {
+    color: #deb1f8;
+}
+.card ul li {
+    font-size: 12pt;
+    font-family: Arial, Helvetica;
+    text-align: justify;
+    list-style-image: none;
+    list-style-image: url("imagens/apple.png");
+    line-height: 1cm;   
+} 
+.card a {
+   color:#deb1f8
+}
+.card blockquote {
+    font-size: 12pt;
+    font-family: Arial, Helvetica;
+    text-align: center;
+    list-style-image: none;
+    padding: 15px;
+}
+.card audio {
+    margin:auto;
+}
+/* --------------------- Rodepé ------------------------ */
+footer {
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+    font-size: 15px;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+footer address a{
+    text-decoration: none;
+    color: #ffffff;
+};
